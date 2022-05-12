@@ -1,0 +1,37 @@
+.main{
+    width: 100%;
+    height: min(max-content,calc(100vh - 70px));
+    background: var(--snow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    width: 55%;
+}
+.box{
+    min-height: 50vh;
+    max-height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box img{
+    width: 15rem;
+}
+
+
+@media screen and (max-width: 96em) {}
+
+@media screen and (max-width: 64em) {}
+
+@media screen and (max-width: 48em) {
+    .box{
+        flex-direction: column;
+    }
+    .content{
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 32em) {}
