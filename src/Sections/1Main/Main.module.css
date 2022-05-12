@@ -1,7 +1,7 @@
 .main{
     width: 100%;
     height: min(max-content,calc(100vh - 70px));
-    background: var(--snow);
+    background: var(--smoke);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,6 +31,10 @@
     }
     .content{
         order: 1;
+        width: 80%;
+    }
+    .box img{
+        width: 10rem;
     }
 }
 

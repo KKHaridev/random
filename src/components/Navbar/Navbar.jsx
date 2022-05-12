@@ -43,7 +43,7 @@ const Navbar = () => {
                 isDynamic={true}
                 to="Home"
               >
-                Home
+                About us
               </Link>
             </li>
             <li className={style.link + ' ' + mainstyle.subheadline}>
@@ -57,7 +57,7 @@ const Navbar = () => {
                 isDynamic={true}
                 to="Home"
               >
-                Home
+                Scrapbook
               </Link>
             </li>
             <li className={style.link + ' ' + mainstyle.subheadline}>
@@ -71,7 +71,7 @@ const Navbar = () => {
                 isDynamic={true}
                 to="Home"
               >
-                Home
+                Links
               </Link>
             </li>
           </ul>

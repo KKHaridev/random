@@ -2,11 +2,12 @@
   "name": "hcasiet",
   "private": true,
   "version": "0.0.0",
+  "homepage":"http://kkharidev.github.io/random",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "preload": "npm run build",
+    "predeploy": "npm run build",
     "deploy":"gh-pages -d build"
 
   },
