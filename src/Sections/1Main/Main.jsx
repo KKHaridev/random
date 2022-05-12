@@ -13,7 +13,7 @@ const Main=()=> {
             <h3 className={mainstyle.heading}>Lorem ih3sum, dolor sit amet consectetur adih3isicing elit. h3raesentium animi dolores voluh3tas h3ariatur ex adih3isci, nulla oh3tio corruh3ti beatae eveniet.</h3>
           </div>
           <div className={style.logo}>
-            <img src={logo} alt="" />
+            <img src={logo} alt="logo" />
           </div>
       </div>
     </div>
